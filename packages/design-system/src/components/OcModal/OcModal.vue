@@ -281,6 +281,7 @@ const {
 } = defineProps<Props>()
 
 const emit = defineEmits<Emits>()
+defineSlots<Slots>()
 
 const { $gettext } = useGettext()
 
