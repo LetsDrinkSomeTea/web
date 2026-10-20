@@ -435,6 +435,7 @@ const {
 } = useResourceViewHelpers({
   space: computed(() => space),
   resources: computed(() => resources),
+  isSelectable: computed(() => isSelectable),
   emit
 })
 
